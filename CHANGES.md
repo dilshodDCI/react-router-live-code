@@ -1,5 +1,15 @@
 # Changes
 
+## Change 3
+
+- Converted Contact-component from functional into class-component
+- added four state-members: name, email, message, messageSent
+- Gave each input a name-property
+- Created a method onChange that is called when input boxes/ textarea changes
+- Added onClick event for button that calls send() - method
+- Added validation-check inside send() - method
+- Added conditional for when the message has been sent
+
 ## Change 2
 
 - $ npm install react-router-dom
