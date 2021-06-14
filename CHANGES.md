@@ -1,5 +1,13 @@
 # Changes
 
+## Change 4
+
+- Converted Header from functional into class-component
+- Added a state-member: active 
+- For each Link, added an onClick-event that calls setActive
+- Added conditional styling for each Link
+- Added componentDidMount-lifecycle method
+
 ## Change 3
 
 - Converted Contact-component from functional into class-component
